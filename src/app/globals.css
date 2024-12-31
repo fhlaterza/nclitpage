@@ -1,3 +1,5 @@
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+
 :root {
   --background: #52057B; /* Cor de fundo principal */
   --foreground: #e0bcdd; /* Cor de destaque para texto */
@@ -172,4 +174,10 @@ body {
   color: var(--background);
   text-align: center; /* Centraliza os textos */
   line-height: 1.6; /* Centraliza o conteúdo */
+}
+
+section#contact p i {
+  margin-right: 10px; /* Espaço entre o ícone e o texto */
+  font-size: 1.5rem;  /* Tamanho do ícone */
+  color: var(--background); /* Cor do ícone */
 }
