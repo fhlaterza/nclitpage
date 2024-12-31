@@ -8,7 +8,7 @@ export default function Home() {
         <title>NCL IT Ltda</title>
         <meta name="description" content="Consultoria de TI especializada em soluções tecnológicas." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/images/favicon.ico" />
       </Head>
       <header className="header">
         {/* Logomarca */}
