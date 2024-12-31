@@ -85,6 +85,7 @@ export default function Home() {
           <ul className="services-list">
             <li className="service-item">Desenvolvimento de Software Personalizado</li>
             <li className="service-item">Consultoria em Transformação Digital</li>
+            <li className="service-item">Consultoria e Suporte TOTVS</li>
             <li className="service-item">Gestão de Infraestrutura e Cloud</li>
             <li className="service-item">Integrações de Sistemas / APIs</li>
             <li className="service-item">Suporte Técnico / Helpdesk</li>
