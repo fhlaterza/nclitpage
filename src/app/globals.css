@@ -59,6 +59,7 @@ body {
 /* Hero Section */
 .hero {
   text-align: center;
+  align-items: center;
 }
 .hero h1 {
   font-size: 1.5rem;
@@ -70,6 +71,17 @@ body {
   font-size: 1.25rem;
   color: var(--background);
   text-align: center;
+}
+
+.hero-image {
+  position: relative;
+  width: 47.5%;
+  height: 300px; /* Ajuste a altura conforme necessário */
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px; /* Ajuste para manter o padding */
 }
 
 .btn {

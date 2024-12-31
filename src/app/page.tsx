@@ -33,7 +33,7 @@ export default function Home() {
       <main>
         {/* Hero Section */}
         <section className="hero">
-          <div style={{ position: 'relative', width: '100%', height: '300px' }}>
+          <div className="hero-image">
             <Image
               src="/images/hero.jpeg"
               alt="Bem-vindo à NCL IT"
