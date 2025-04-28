@@ -107,12 +107,12 @@ export default function Home() {
           <p>Estamos prontos para ajudar sua empresa a crescer com tecnologia!</p>
           <p>
             <strong>
-              <i className="fas fa-envelope"></i>Email: 
+              <i className="fas fa-envelope"></i>Email:
             </strong> ncl_it@nclit.com.br
           </p>
           <p>
             <strong>
-              <i className="fas fa-phone"></i>Telefone: 
+              <i className="fas fa-phone"></i>Telefone:
             </strong> +55 11 96611-3531
           </p>
         </section>
