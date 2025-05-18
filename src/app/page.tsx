@@ -106,6 +106,7 @@ export default function Home() {
           <h2>Entre em Contato</h2>
           <p>Estamos prontos para ajudar sua empresa a crescer com tecnologia!</p>
           <p>
+<<<<<<< HEAD
             <strong>
               <i className="fas fa-envelope"></i>Email:
             </strong> ncl_it@nclit.com.br
@@ -114,6 +115,12 @@ export default function Home() {
             <strong>
               <i className="fas fa-phone"></i>Telefone:
             </strong> +55 11 96611-3531
+=======
+            <strong>Email:</strong> ncl_it@nclit.com.br
+          </p>
+          <p>
+            <strong>Telefone:</strong> +55 11 96611-3531
+>>>>>>> parent of ff6bf41 (ícones)
           </p>
         </section>
       </main>

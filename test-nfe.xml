@@ -1,0 +1,23 @@
+<nfeProc>
+  <NFe>
+    <infNFe Id="NFe123456789">
+      <ide>
+        <nNF>123456</nNF>
+        <dhEmi>2025-01-01T10:00:00</dhEmi>
+      </ide>
+      <emit>
+        <CNPJ>12345678000195</CNPJ>
+        <xNome>Empresa Emissora</xNome>
+      </emit>
+      <dest>
+        <CNPJ>98765432000191</CNPJ>
+        <xNome>Empresa Destinatária</xNome>
+      </dest>
+      <total>
+        <ICMSTot>
+          <vNF>1000.00</vNF>
+        </ICMSTot>
+      </total>
+    </infNFe>
+  </NFe>
+</nfeProc>
