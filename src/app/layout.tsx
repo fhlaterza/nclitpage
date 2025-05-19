@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import { Puritan } from 'next/font/google';
 import "./globals.css";
+import Script from 'next/script';
 
+<Script src="https://kit.fontawesome.com/c03bc1935d.js" crossOrigin="anonymous"></Script>
 
 const puritan = Puritan({ 
   variable: "--font-puritan",
@@ -20,10 +22,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${puritan.variable} ${puritan.variable} antialiased`}
-      >
+        <html lang="pt-BR"> {/* Mudei para pt-BR já que é empresa brasileira */}
+      <head>
+        <Script 
+          src="https://kit.fontawesome.com/c03bc1935d.js" 
+          crossOrigin="anonymous"
+          strategy="beforeInteractive" // Otimização de carregamento
+        />
+      </head>
+      <body className={`${puritan.variable} antialiased`}>
         {children}
       </body>
     </html>

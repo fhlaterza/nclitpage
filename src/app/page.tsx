@@ -1,17 +1,26 @@
 // import Head from 'next/head';
 import type { Metadata } from 'next';
+import type { Viewport } from 'next';
 import Image from 'next/legacy/image';
-import Script from 'next/script';
 import Link from 'next/link';
+
+
 
 export const metadata: Metadata = {
   title: 'NCL IT Ltda',
   description: 'Consultoria de TI especializada em soluções tecnológicas.',
-  viewport: 'width=device-width, initial-scale=1',
   icons: {
     icon: '/images/favicon.ico',
   },
 };
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  themeColor: 'black',
+};
+
+
 
 export default function Home() {
   return (
@@ -28,7 +37,7 @@ export default function Home() {
           />
         </div>
         {/* Nome da Empresa */}
-        <Link href="https://nclit.com.br" passHref legacyBehavior className="company-name">
+        <Link href="https://nclit.com.br" passHref legacyBehavior>
           <h1 className="company-name">NCL IT LTDA</h1>
         </Link>
         {/* Navegação */}
@@ -103,8 +112,7 @@ export default function Home() {
 
         {/* Contato */}
         <section id="contact" className="section">
-          <Script src="https://kit.fontawesome.com/c03bc1935d.js" crossOrigin="anonymous"></Script>
-          <div style={{ position: 'relative', width: '100%', height: '300px' }}>
+             <div style={{ position: 'relative', width: '100%', height: '300px' }}>
             <Image
               src="/images/contact.jpg"
               alt="Contate-nos"
@@ -118,12 +126,26 @@ export default function Home() {
               <p>
                 <strong>
                   <i className="fa-solid fa-envelope"></i> Email:
-                </strong> ncl_it@nclit.com.br
+                </strong>{' '} 
+                <a href="mailto:ncl_it@nclit.com.br" aria-label="Enviar email para NCL IT">
+                  ncl_it@nclit.com.br
+                </a>
               </p>
               <p>
                 <strong>
                   <i className="fa-solid fa-phone-volume"></i> Telefone:
-                </strong> +55 11 96611-3531
+                </strong>{' '}
+                <a href="tel:+5511966113531">
+                  +55 11 96611-3531
+                </a>
+              </p>
+              <p>
+                <strong>
+                  <i className="fa-brands fa-whatsapp"></i> Whatsapp:
+                </strong>{' '}
+                <a href="https://wa.me/5511966113531" target="_blank" rel="noopener noreferrer">
+                 +55 11 96611-3531
+                </a>
               </p>
 
         </section>
