@@ -3,6 +3,9 @@ import type { Metadata } from 'next';
 import type { Viewport } from 'next';
 import Image from 'next/legacy/image';
 import Link from 'next/link';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope, faPhoneVolume } from '@fortawesome/free-solid-svg-icons'
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
 
 
 
@@ -125,7 +128,7 @@ export default function Home() {
           <p>Estamos prontos para ajudar sua empresa a crescer com tecnologia!</p>
               <p>
                 <strong>
-                  <i className="fa-solid fa-envelope" aria-hidden="true"></i> Email:
+                  <FontAwesomeIcon icon={faEnvelope} className="fa-icon" aria-hidden="true"  /> Email:
                 </strong>{' '} 
                 <a href="mailto:ncl_it@nclit.com.br" aria-label="Enviar email para NCL IT">
                   ncl_it@nclit.com.br
@@ -133,7 +136,7 @@ export default function Home() {
               </p>
               <p>
                 <strong>
-                  <i className="fa-solid fa-phone-volume" aria-hidden="true"></i> Telefone:
+                  <FontAwesomeIcon icon={faPhoneVolume} className="fa-icon" aria-hidden="true" /> Telefone:
                 </strong>{' '}
                 <a href="tel:+5511966113531">
                   +55 11 96611-3531
@@ -141,7 +144,7 @@ export default function Home() {
               </p>
               <p>
                 <strong>
-                  <i className="fa-brands fa-whatsapp" aria-hidden="true"></i> Whatsapp:
+                  <FontAwesomeIcon icon={faWhatsapp} className="fa-icon" aria-hidden="true" /> Whatsapp:
                 </strong>{' '}
                 <a href="https://wa.me/5511966113531" target="_blank" rel="noopener noreferrer">
                  +55 11 96611-3531

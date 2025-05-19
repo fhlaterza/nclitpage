@@ -180,3 +180,11 @@ body {
   text-align: center; /* Centraliza os textos */
   line-height: 1.6; /* Centraliza o conteúdo */
 }
+
+.fa-icon {
+  width: 1em !important;
+  height: 1em !important;
+  font-size: 1rem !important;
+  vertical-align: middle;
+  margin-right: 0.5rem;
+}
