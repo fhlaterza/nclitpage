@@ -1,17 +1,21 @@
-import Head from 'next/head';
+// import Head from 'next/head';
+import type { Metadata } from 'next';
 import Image from 'next/legacy/image';
 import Script from 'next/script';
 import Link from 'next/link';
 
+export const metadata: Metadata = {
+  title: 'NCL IT Ltda',
+  description: 'Consultoria de TI especializada em soluções tecnológicas.',
+  viewport: 'width=device-width, initial-scale=1',
+  icons: {
+    icon: '/images/favicon.ico',
+  },
+};
+
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>NCL IT Ltda</title>
-        <meta name="description" content="Consultoria de TI especializada em soluções tecnológicas." />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/images/icone.ico" type="image/x-icon"/>
-      </Head>
       <header className="header">
         {/* Logomarca */}
         <div className="logo">
