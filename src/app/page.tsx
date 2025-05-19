@@ -110,12 +110,12 @@ export default function Home() {
           <p>Estamos prontos para ajudar sua empresa a crescer com tecnologia!</p>
           <p>
             <strong>
-              <i className="fa-solid fa-envelope"></i>Email:
+              <i className="fa-solid fa-envelope"></i> Email:
             </strong> ncl_it@nclit.com.br
           </p>
           <p>
             <strong>
-              <i className="fa-solid fa-phone-volume"></i>Telefone:
+              <i className="fa-solid fa-phone-volume"></i> Telefone:
             </strong> +55 11 96611-3531
           </p>
         </section>
