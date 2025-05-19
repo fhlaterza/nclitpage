@@ -22,7 +22,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-        <html lang="pt-BR"> {/* Mudei para pt-BR já que é empresa brasileira */}
+        <html lang="pt-BR">
       <head>
         <Script 
           src="https://kit.fontawesome.com/c03bc1935d.js" 

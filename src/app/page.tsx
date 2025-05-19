@@ -37,7 +37,7 @@ export default function Home() {
           />
         </div>
         {/* Nome da Empresa */}
-        <Link href="https://nclit.com.br" passHref legacyBehavior>
+        <Link href="https://nclit.com.br" passHref>
           <h1 className="company-name">NCL IT LTDA</h1>
         </Link>
         {/* Navegação */}
@@ -125,7 +125,7 @@ export default function Home() {
           <p>Estamos prontos para ajudar sua empresa a crescer com tecnologia!</p>
               <p>
                 <strong>
-                  <i className="fa-solid fa-envelope"></i> Email:
+                  <i className="fa-solid fa-envelope" aria-hidden="true"></i> Email:
                 </strong>{' '} 
                 <a href="mailto:ncl_it@nclit.com.br" aria-label="Enviar email para NCL IT">
                   ncl_it@nclit.com.br
@@ -133,7 +133,7 @@ export default function Home() {
               </p>
               <p>
                 <strong>
-                  <i className="fa-solid fa-phone-volume"></i> Telefone:
+                  <i className="fa-solid fa-phone-volume" aria-hidden="true"></i> Telefone:
                 </strong>{' '}
                 <a href="tel:+5511966113531">
                   +55 11 96611-3531
@@ -141,7 +141,7 @@ export default function Home() {
               </p>
               <p>
                 <strong>
-                  <i className="fa-brands fa-whatsapp"></i> Whatsapp:
+                  <i className="fa-brands fa-whatsapp" aria-hidden="true"></i> Whatsapp:
                 </strong>{' '}
                 <a href="https://wa.me/5511966113531" target="_blank" rel="noopener noreferrer">
                  +55 11 96611-3531
