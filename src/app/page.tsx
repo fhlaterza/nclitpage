@@ -11,9 +11,7 @@ export default function Home() {
         <meta name="description" content="Consultoria de TI especializada em soluções tecnológicas." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/images/favicon.ico" type="image/x-icon"/>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"></link>
       </Head>
-      <Script src="https://kit.fontawesome.com/c03bc1935d.js" crossOrigin="anonymous"></Script>
       <header className="header">
         {/* Logomarca */}
         <div className="logo">
@@ -34,6 +32,7 @@ export default function Home() {
           <a href="#about">Sobre Nós</a>
           <a href="#services">Serviços</a>
           <a href="#contact">Contato</a>
+          <a href="#login">Login</a>
         </nav>
       </header>
       <main>
@@ -100,6 +99,7 @@ export default function Home() {
 
         {/* Contato */}
         <section id="contact" className="section">
+          <Script src="https://kit.fontawesome.com/c03bc1935d.js" crossOrigin="anonymous"></Script>
           <div style={{ position: 'relative', width: '100%', height: '300px' }}>
             <Image
               src="/images/contact.jpg"
@@ -111,16 +111,21 @@ export default function Home() {
           </div>
           <h2>Entre em Contato</h2>
           <p>Estamos prontos para ajudar sua empresa a crescer com tecnologia!</p>
-          <p>
-            <strong>
-              <i className="fa-solid fa-envelope"></i> Email:
-            </strong> ncl_it@nclit.com.br
-          </p>
-          <p>
-            <strong>
-              <i className="fa-solid fa-phone-volume"></i> Telefone:
-            </strong> +55 11 96611-3531
-          </p>
+              <p>
+                <strong>
+                  <i className="fa-solid fa-envelope"></i> Email:
+                </strong> ncl_it@nclit.com.br
+              </p>
+              <p>
+                <strong>
+                  <i className="fa-solid fa-phone-volume"></i> Telefone:
+                </strong> +55 11 96611-3531
+              </p>
+
+        </section>
+        {/* Login */}
+        <section id="login" className="section">
+          
         </section>
       </main>
       <footer className="footer">

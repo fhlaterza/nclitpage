@@ -173,3 +173,10 @@ body {
   text-align: center; /* Centraliza os textos */
   line-height: 1.6; /* Centraliza o conteúdo */
 }
+
+#contact login {
+  font-size: 1.25rem;
+  color: var(--background);
+  text-align: center; /* Centraliza os textos */
+  line-height: 1.6; /* Centraliza o conteúdo */
+}
