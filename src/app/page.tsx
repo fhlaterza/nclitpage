@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/legacy/image';
+import Script from 'next/script';
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         <link rel="icon" href="/images/favicon.ico" type="image/x-icon"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"></link>
       </Head>
+      <Script src="https://kit.fontawesome.com/c03bc1935d.js" crossOrigin="anonymous"></Script>
       <header className="header">
         {/* Logomarca */}
         <div className="logo">
@@ -108,12 +110,12 @@ export default function Home() {
           <p>Estamos prontos para ajudar sua empresa a crescer com tecnologia!</p>
           <p>
             <strong>
-              <i className="fas fa-envelope"></i>Email:
+              <i className="fa-solid fa-envelope"></i>Email:
             </strong> ncl_it@nclit.com.br
           </p>
           <p>
             <strong>
-              <i className="fas fa-phone"></i>Telefone:
+              <i className="fa-solid fa-phone-volume"></i>Telefone:
             </strong> +55 11 96611-3531
           </p>
         </section>
