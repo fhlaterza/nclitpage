@@ -8,7 +8,7 @@ export default function Home() {
         <title>NCL IT Ltda</title>
         <meta name="description" content="Consultoria de TI especializada em soluções tecnológicas." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/images/favicon.ico" />
+        <link rel="icon" href="/images/favicon.ico" type="image/x-icon"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"></link>
       </Head>
       <header className="header">
