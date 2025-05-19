@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/legacy/image';
 import Script from 'next/script';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -25,7 +26,9 @@ export default function Home() {
           />
         </div>
         {/* Nome da Empresa */}
-        <h1 className="company-name">NCL IT LTDA</h1>
+        <Link href="https://nclit.com.br" passHref legacyBehavior className="company-name">
+          <h1 className="company-name">NCL IT LTDA</h1>
+        </Link>
         {/* Navegação */}
         <nav className="nav">
           <a href="#about">Sobre Nós</a>
