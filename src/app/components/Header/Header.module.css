@@ -1,0 +1,52 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: var(--background);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.logo img {
+  display: block;
+  flex: 0 0 auto;
+}
+
+.companyName {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--foreground);
+  transition: color 0.3s;
+}
+
+.companyName:hover {
+  color: #fff;
+}
+
+.nav {
+  flex: 0 0 auto;
+  display: flex;
+  gap: 20px;
+  margin-right: 40px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: var(--foreground);
+  font-weight: 500;
+  transition: color 0.3s;
+  position: relative;
+}
+
+.nav a:hover {
+  color: #fff;
+}
+
+.active {
+  color: #fff;
+  font-weight: 700;
+}

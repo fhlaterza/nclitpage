@@ -1,0 +1,47 @@
+.contact {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: var(--foreground);
+}
+
+.contact h2 {
+  font-size: 1.5rem;
+  color: var(--background);
+  margin-bottom: 30px;
+}
+
+.contactImage {
+  position: relative;
+  width: 80%;
+  height: 300px;
+  margin: 0 auto 40px;
+}
+
+.contactInfo {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contactInfo p {
+  font-size: 1.25rem;
+  color: var(--background);
+  line-height: 1.6;
+  }
+
+.contactInfo a {
+  color: var(--background);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.contactInfo a:hover {
+  color: var(--primary);
+  text-decoration: underline;
+}
+
+.icon {
+  margin-right: 10px;
+  color: var(--background);
+  font-size: 1rem !important;
+  vertical-align: middle;
+}
