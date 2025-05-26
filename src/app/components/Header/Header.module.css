@@ -39,11 +39,18 @@
   color: var(--foreground);
   font-weight: 500;
   transition: color 0.3s;
-  position: relative;
+  /* position: relative; */
 }
 
 .nav a:hover {
   color: #fff;
+}
+
+.navLink {
+  text-decoration: none;
+  color: var(--foreground);
+  font-weight: 500;
+  transition: color 0.3s;
 }
 
 .active {

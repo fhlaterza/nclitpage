@@ -2,6 +2,7 @@ import type { NextConfig } from "next";
 import path from "path";
 
 const nextConfig: NextConfig = {
+
   // Configuração para Webpack (opcional)
   webpack: (config) => {
     config.resolve.alias = {

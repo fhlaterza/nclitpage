@@ -47,3 +47,22 @@
 .loginForm button:hover {
   background-color: #3a035e;
 }
+
+/* ✅ Estilo para mensagens de erro */
+.error {
+  color: #ff4d4f;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+/* ✅ Estilo para exibir resultado do login */
+.resultado {
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 6px;
+  text-align: left;
+  font-size: 0.9rem;
+  white-space: pre-wrap;
+}
