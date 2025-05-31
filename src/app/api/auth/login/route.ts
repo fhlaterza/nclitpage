@@ -17,3 +17,7 @@ export async function POST(req: Request) {
 
   return NextResponse.json({ token }, { status: 200 });
 }
+
+export const config = {
+  runtime: "nodejs",
+};

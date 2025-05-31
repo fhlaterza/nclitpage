@@ -84,3 +84,7 @@ function jsonError(message: string): NextResponse {
     { status: 401, headers: { "Content-Type": "application/json" } }
   );
 }
+export const config = {
+  matcher: ["/api/me"],
+  runtime: "experimental-edge",
+};
