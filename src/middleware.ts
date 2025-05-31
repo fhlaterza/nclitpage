@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { verifyTokenEdge } from "@/lib/auth";
+import { verifyTokenEdge } from "@/lib/auth-edge";
 
 const protectedRoutes = ["/api/me"];
 

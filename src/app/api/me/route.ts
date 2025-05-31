@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { connectToDatabase } from "@/lib/db";
 import User from "@/models/User";
-import { verifyToken } from "@/lib/auth";
+import { verifyToken } from "@/lib/auth-node";
 
 export async function GET(req: NextRequest) {
   await connectToDatabase();
